@@ -84,13 +84,11 @@ button {
 
 .result-section {
   width: 300px;
-  height: 660px;
+  height: 330px;
   max-width: 300px;
-  max-height: 660px;
+  max-height: 330px;
   border-radius: 30px;
-  box-shadow: 4px 3px 22px 0px rgba(0, 0, 0, 0.37);
-  -webkit-box-shadow: 4px 3px 22px 0px rgba(0, 0, 0, 0.37);
-  -moz-box-shadow: 4px 3px 22px 0px rgba(0, 0, 0, 0.37);
+
 }
 
 .result-section img{
