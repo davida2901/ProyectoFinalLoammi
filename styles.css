@@ -70,8 +70,8 @@ button {
 }
 
 .encriptor-button:hover{
-  background-color: #105dbd;
-  font-size: 17px;
+  background-color: #7fb3f4;
+  font-size: 20px;
 }
 .decrypt-button:hover{
   background-color: #7aaae8;
