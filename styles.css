@@ -1,0 +1,113 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 100%;
+}
+
+.logo {
+  position: relative;
+  width: 10%;
+  top: 25px;
+  left: 25px;
+  padding-bottom: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.encryptor-section {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+}
+.encryptor-section .message {
+  padding-top: 10px;
+  width: 800px;
+  height: 450px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 50px;
+  align-content: flex-end;
+}
+
+.message textarea {
+  padding-top: 20px;
+  width: 90%;
+  height: 100%;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 10px;
+}
+
+textarea::placeholder {
+  font-size: 20px;
+  color: #0a3871;
+}
+
+button {
+  padding: 10px 30px;
+  border: 1px solid darkblue;
+  width: 20%;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.encriptor-button {
+  color: white;
+  background-color: darkblue;
+}
+
+.decrypt-button,
+.clean-button {
+  background-color: #d8dfe8;
+  color: #0a3871;
+}
+
+.encriptor-button:hover{
+  background-color: #105dbd;
+  font-size: 17px;
+}
+.decrypt-button:hover{
+  background-color: #7aaae8;
+  font-size: 17px;
+}
+.clean-button:hover{
+  background-color: #7aaae8;
+  font-size: 17px;
+}
+
+.result-section {
+  width: 300px;
+  height: 660px;
+  max-width: 300px;
+  max-height: 660px;
+  border-radius: 30px;
+  box-shadow: 4px 3px 22px 0px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: 4px 3px 22px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 4px 3px 22px 0px rgba(0, 0, 0, 0.37);
+}
+
+.result-section img{
+    width: 200px;
+}
+
+.result-section .result-container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.result-text {
+  padding-left: 15px;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 34;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
